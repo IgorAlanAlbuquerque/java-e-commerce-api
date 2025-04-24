@@ -1,10 +1,10 @@
 package com.igor.ecommerce.dto;
-
-import lombok.Data;
-
-@Data
-public class PurchaseResponse {
-
-    private String orderTrackingNumber;
-    
-}
+ 
+ import lombok.Data;
+ 
+ @Data
+ public class PurchaseResponse {
+ 
+     private final String orderTrackingNumber;
+ 
+ }
